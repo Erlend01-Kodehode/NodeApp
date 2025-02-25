@@ -1,0 +1,32 @@
+20.02.2025	10:00:03	2a43b894-6878-4cdf-85ff-ea874d2db0c4	GET	/api/product	404	Not found
+20.02.2025	10:05:40	701546a5-d0aa-48c3-9786-84cb67c7855e	GET	/api/product	404	Not found
+20.02.2025	10:10:33	a7fe7437-a06c-4d39-a2cf-09e23d228faa	GET	/api/product	404	Not Found
+20.02.2025	10:12:09	2f834aa6-1530-4448-9a9d-9288ef543587	PATCH	/api/product	404	Not Found
+20.02.2025	10:12:11	6bda97df-6737-4a12-ac50-53bbaf587a9c	PATCH	/api/products	405	PATCH not supported on this endpoint. Please refer to the API documentation.
+20.02.2025	10:13:15	72431a9a-d920-4171-b9c9-856c9a4603bd	HEAD	/api/products	405	HEAD not supported on this endpoint. Please refer to the API documentation.
+20.02.2025	10:13:22	f64cad51-17fb-4755-8148-fc1b172434ab	OPTIONS	/api/products	405	OPTIONS not supported on this endpoint. Please refer to the API documentation.
+20.02.2025	10:13:26	d7119733-b90c-4b39-9166-377666bf576d	HEAD	/api/products	405	HEAD not supported on this endpoint. Please refer to the API documentation.
+20.02.2025	10:14:18	82972715-ee9c-4f09-9647-26d25456b70d	GET	/api/product	404	Not Found
+21.02.2025	09:58:38	4fb8e2b1-f61f-432f-8b2c-a0e475124d40	GET	/api/product	404	Not Found
+21.02.2025	10:10:16	cf98a5e5-0cf8-471a-86d3-0c957b9acf92	GET	/api/products	undefined	Cannot destructure property 'category' of 'req.query.category' as it is undefined.
+21.02.2025	10:16:51	9e17ff2a-4242-4499-ab1a-e5f7df0393e4	GET	/api/products?category=Electronics&category=Toys	undefined	category.toLowerCase is not a function
+21.02.2025	10:43:46	715553b2-3438-4bf3-b288-b37a0329b0c4	OPTIONS	/api/products	405	OPTIONS not supported on this endpoint. Please refer to the API documentation.
+21.02.2025	11:05:20	baedad11-068c-4325-8a75-543643dec5a4	GET	/api/products/55	undefined	Cannot read properties of undefined (reading 'length')
+21.02.2025	11:06:41	b9fe2642-a658-440d-a3b6-1750bb63ad50	GET	/api/products/55	404	Product with ID 55 does not exist.
+21.02.2025	11:20:46	405d95de-3b64-4ccd-b445-1a420cbf26d5	DELETE	/api/products/55	404	Product with ID 55 does not exist.
+24.02.2025	10:37:38	795049e9-39c1-4ce7-a977-4fb37dc04de4	POST	/api/signup	400	Expected double-quoted property name in JSON at position 60
+24.02.2025	10:47:17	fe01f800-5818-4b49-8061-cb0c284206c4	GET	/api/signup	405	GET not supported on this endpoint.
+24.02.2025	11:05:42	2cc1520a-c6d5-4955-9437-0aa76708b960	POST	/api/login	403	Authentication Failed 2
+24.02.2025	11:05:49	f91364fe-403e-4b88-ad83-aaf94ad5e31f	POST	/api/login	403	Authentication Failed
+24.02.2025	11:06:05	ec18bd63-4036-45af-96c1-f38c7c970bbe	POST	/api/login	403	Authentication Failed
+24.02.2025	11:06:25	32270003-0208-45c0-9fac-79d1d582c756	GET	/api/login	405	GET not supported on this endpoint.
+25.02.2025	10:07:16	78903707-ea38-4249-b33e-3232c8b843a3	GET	/api/orders	undefined	no such table: orders
+25.02.2025	11:08:16	c6ed6e78-9600-4e20-8887-2d0c1c480a90	PUT	/api/orders	405	PUT is not supported
+25.02.2025	11:20:41	67274ed8-0592-4056-b3a3-28e0bdef2012	GET	/api/orders/3	404	Order with ID: 3 does not exist.
+25.02.2025	11:22:35	5e7ba8ad-d596-4a45-a12f-1ecdca3f1b09	GET	/api/users	404	Not Found
+25.02.2025	11:22:37	944f3a8c-d5e9-4342-a6f9-325003e773f1	GET	/api/user	404	Not Found
+25.02.2025	11:22:55	faff607f-240c-4b02-800b-ef90578f3cea	GET	/api/users	404	Not Found
+25.02.2025	11:40:46	a8f1e9ee-4c62-41f3-9b2a-ab34f2514b68	GET	/api/orders/2	404	Order with ID: 2 does not exist.
+25.02.2025	11:51:11	682b99a4-66fd-486d-b78d-952de9778272	PATCH	/api/orders	405	PATCH is not supported
+25.02.2025	11:51:16	8e033cda-a8ce-41dc-9e58-db19091b4c0e	PATCH	/api/orders/2	405	PATCH is not supported
+25.02.2025	11:51:19	dc0c88eb-06a3-4535-a97b-bb141284b4e8	PATCH	/api/orders/3	405	PATCH is not supported
