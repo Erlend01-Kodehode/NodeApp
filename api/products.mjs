@@ -2,6 +2,7 @@ import express from "express";
 const router = express.Router();
 
 import { ReqError } from "../util/errorHandler.mjs";
+import jwtValidator from "../util/jwtValidator.mjs";
 import {
   getProducts,
   getCategory,
@@ -11,7 +12,7 @@ import {
   updateProduct,
 } from "../util/dbQueries.mjs";
 
-router.all("/", (req, res) => {
+router.all("/", jwtValidator, (req, res) => {
   if (req.method === "GET") {
     // let data = products;
 

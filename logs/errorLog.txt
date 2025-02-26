@@ -30,3 +30,7 @@
 25.02.2025	11:51:11	682b99a4-66fd-486d-b78d-952de9778272	PATCH	/api/orders	405	PATCH is not supported
 25.02.2025	11:51:16	8e033cda-a8ce-41dc-9e58-db19091b4c0e	PATCH	/api/orders/2	405	PATCH is not supported
 25.02.2025	11:51:19	dc0c88eb-06a3-4535-a97b-bb141284b4e8	PATCH	/api/orders/3	405	PATCH is not supported
+25.02.2025	12:44:32	4de98087-cdbd-4b64-ac95-dc759ce0ee95	POST	/api/login	500	secretOrPrivateKey must have a value
+25.02.2025	12:46:22	0350d9f7-300e-49e4-8a53-86596b2a8808	POST	/api/login	500	secretOrPrivateKey must have a value
+25.02.2025	12:46:27	950de462-4fc5-4bae-b55a-a0beff020fa8	POST	/api/login	500	secretOrPrivateKey must have a value
+25.02.2025	12:47:53	5b7c0781-c986-4f21-b251-2535e8bc152f	POST	/api/login	500	secretOrPrivateKey must have a value
